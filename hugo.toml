@@ -1,0 +1,29 @@
+baseURL = "https://dannyk20.github.io/"
+languageCode = "ko-kr"
+title = "Danny's Dev Blog"
+theme = "ananke"
+
+
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 1
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3

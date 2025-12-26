@@ -1,8 +1,7 @@
 baseURL = "https://dannyk20.github.io/"
 languageCode = "ko-kr"
-title = "Danny's Dev Blog"
-theme = "ananke"
-
+title = "Taehoon Devlog"
+theme = "hugo-theme-stack"
 
 enableRobotsTXT = true
 
@@ -13,17 +12,33 @@ enableRobotsTXT = true
   tag = "tags"
   category = "categories"
 
-[[menu.main]]
-  name = "Posts"
-  url = "/posts/"
-  weight = 1
+[params]
+  mainSections = ["posts"]
+  favicon = "/favicon.ico"
 
-[[menu.main]]
-  name = "Projects"
-  url = "/projects/"
-  weight = 2
+  [params.sidebar]
+    emoji = "💻"
+    subtitle = "CS · Algorithms · JavaScript"
 
-[[menu.main]]
-  name = "About"
-  url = "/about/"
-  weight = 3
+  [params.article]
+    math = false
+
+  [params.footer]
+    since = 2025
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+    identifier = "posts"
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3

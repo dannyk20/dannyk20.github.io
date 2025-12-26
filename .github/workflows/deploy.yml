@@ -18,8 +18,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout (with submodules)
         uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -28,7 +31,12 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: |
+          hugo --minify
+          echo "== public/ top =="
+          ls -la public | head -n 200
+          echo "== must have public/index.html =="
+          test -f public/index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

@@ -2,7 +2,7 @@
 name: Docs
 about: "\U0001F4C4 Docs : 문서 작성"
 title: "[Docs]"
-labels: ''
+labels: "\U0001F4DD docs"
 assignees: dannyk20
 
 ---

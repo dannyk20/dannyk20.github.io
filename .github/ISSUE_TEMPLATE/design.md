@@ -2,7 +2,7 @@
 name: Design
 about: "\U0001F3A8 Design(페이지 경로 또는 컴포넌트): 디자인, 문장 수정"
 title: "[Design]"
-labels: ''
+labels: "\U0001F3A8 design"
 assignees: dannyk20
 
 ---

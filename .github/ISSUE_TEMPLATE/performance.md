@@ -2,7 +2,7 @@
 name: Performance
 about: "⚡Performance(페이지 경로 또는 컴포넌트): 성능 개선"
 title: "[Performance]"
-labels: ''
+labels: "⚡ performance"
 assignees: dannyk20
 
 ---

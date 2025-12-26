@@ -1,5 +1,4 @@
-+++
-date = '2025-12-25T02:01:03+09:00'
-draft = true
-title = 'Projects'
-+++
+---
+title: "Projects"
+readingTime: false
+---

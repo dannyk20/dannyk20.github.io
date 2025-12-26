@@ -42,3 +42,9 @@ enableRobotsTXT = true
     name = "About"
     url = "/about/"
     weight = 3
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]

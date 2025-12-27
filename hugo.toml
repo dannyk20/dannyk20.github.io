@@ -17,6 +17,7 @@ enableRobotsTXT = true
   favicon = "/favicon.ico"
 
   [params.sidebar]
+    avatar = "img/avatar.png" 
     emoji = "💻"
     subtitle = "CS · Algorithms · JavaScript"
 

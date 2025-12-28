@@ -1,5 +1,5 @@
 ---
-title: "Data Structures"
+title: "📚 Data Structures"
 readingTime: false
 ---
 

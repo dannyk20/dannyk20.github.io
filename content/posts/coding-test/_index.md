@@ -1,5 +1,5 @@
 ---
-title: "Coding Test"
+title: "✍️ Coding Test"
 readingTime: false
 ---
 

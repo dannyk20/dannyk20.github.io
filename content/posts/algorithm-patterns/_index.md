@@ -1,5 +1,5 @@
 ---
-title: "Algorithm Patterns"
+title: "🧠 Algorithm Patterns"
 readingTime: false
 ---
 

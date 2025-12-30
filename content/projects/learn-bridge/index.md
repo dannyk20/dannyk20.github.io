@@ -7,7 +7,6 @@ image: "cover.png"
 
 tags:
   - Web
-  - AI
   - Frontend
 
 categories:
